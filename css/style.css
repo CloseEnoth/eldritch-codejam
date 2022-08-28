@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  background: url("https://img1.akspic.ru/crops/2/2/1/6/16122/16122-ktulhu-risovanie-noch-iskusstvo-osminog-1920x1080.jpg") no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: hidden;
+  gap: 3%;
+}
+
+.ancients {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ancients__body {
+  max-width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 15px;
+}
+
+.ancients__god {
+  max-width: 325px;
+}
+
+.ancients__god img {
+  width: 100%;
+}
+
+.difficulty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.difficulty__title {
+  margin-bottom: 15px;
+  font: 500 26px/120% 'Arial', serif;
+}
+
+.difficulty__list {
+  font: 400 18px/120% sans-serif;
+}
+
+.difficulty__list li {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid red;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.difficulty__list li:hover {
+  background-color: grey;
+}
+
+.gameState__body {
+  margin-bottom: 80px;
+}
+
+.gameState__stage {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.gameState__text {
+  margin-right: 15px;
+  margin-bottom: 5px;
+  font: 500 26px/120% 'Arial', serif;
+}
+
+.gameState__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gameState__list li {
+  margin-right: 15px;
+  padding: 2px 10px;
+  border: 1px solid white;
+  font: 500 18px/120% 'Arial', serif;
+}
+
+.gameState__list li:nth-child(1) {
+  background-color: green;
+}
+
+.gameState__list li:nth-child(2) {
+  background-color: brown;
+}
+
+.gameState__list li:nth-child(3) {
+  background-color: blue;
+}
+
+.gameState__list li:last-child {
+  margin: 0;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
